@@ -1,0 +1,264 @@
+html {
+	font-family: arial;
+	font-size: .75em;
+	background-color: #594F63;
+	color: #fff;
+}
+
+.shadow {
+	box-shadow: -4px 4px 4px #000 !important;
+}
+
+#container {
+	width: 100%;
+}
+
+#content {
+	position: relative;
+	margin: 0 auto;
+	padding: 1em;
+	padding-left: 18em;
+	width: 60em;
+	overflow: hidden;
+}
+
+#mainForm {
+	width: 18em;
+	background-color: #6C7080;
+	position: fixed;
+	top: 5em;
+	float: left;
+	margin-left: -18em;
+	padding: .25em 0;
+	z-index: 2;
+	opacity: 0;
+}
+
+#mainForm input {
+	background-color: #8395A2;
+	color: #ffffff;
+}
+
+#mainForm select {
+	background-color: #8395A2;
+	color: #ffffff;
+	border: 0px;
+}
+
+fieldset {
+    border: 0;
+	margin-top: -2.55em;
+}
+
+legend {
+	font-size: 2em;
+	color: #ffffff;
+}
+
+#mainForm  p {
+	padding: 0;
+	margin: .5em 0;
+}
+
+#searchResults {
+	width: 100%;
+	margin-top: 3.35em; 
+	padding: 1em .5em;
+	position: relative;
+	z-index: 1;
+}
+
+#banner {
+	font-size: 5.75em;
+	bottom: 10em;
+}
+
+#paginator {
+	/* margin-left: .5em;
+	margin-top : 0em; */
+	margin : 0em;
+	padding-left: .5em;
+	/* padding: .10em; */
+	z-index: 1;
+	margin-bottom: -.25em;
+	bottom: 0;
+	opacity: 0;
+	background-color: #8395A2;
+	border-top: 5px solid #fff;
+}
+
+#searchResultsTable {
+	margin: 0; 	
+}
+
+#resultsTable {
+	/* table-layout: auto !important; */
+	margin: 0; 
+	padding: 0;
+}
+
+.selectedItemTable {
+	padding: 1em;
+}
+
+.pagedisplay {
+	width: 4em; 
+	text-align: center;
+}
+
+.paginatorImg {
+	padding-left: .25em;
+	padding-right: .25em;
+	margin-bottom: -.25em;
+	cursor: pointer;
+}
+
+.itemLink {
+	color: #8395A2;
+	cursor: pointer;
+}
+
+.itemLink:hover {
+	color: #594F63;
+	cursor: pointer;
+}
+
+#selectedItemInfo {
+	width: 60em;
+	overflow: hidden;
+	margin-top: 4em;
+}
+
+#currentTab {
+	background-color: #594F63;
+	overflow: auto;
+	max-height: 50em;
+}
+
+.tabs {
+	margin: 0; 
+	padding: 0;
+}
+
+.tab {
+	display: inline-block;
+	padding: .5em;
+	height: 1em;
+	background-color: #990000;
+	border: 1px solid #fff;
+}
+
+.tab p {
+	margin: 0; 
+	padding: 0;
+	font-size: 8pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.tab:hover {
+	background-color: #990000;
+	cursor: pointer;
+}
+
+.tab.active {
+	background: #fff;
+	padding-top: 6px;
+	position: relative;
+	top: 1px;
+	border-color: #666;
+}
+
+h3#title {
+	margin: 0;
+	margin-bottom: -1em;
+	padding-left: 1em;
+	padding-top: 1em;
+}
+
+#generalTable {
+	padding: 1em;
+}
+
+#noResults {
+	left: 6em;
+	font-size: 3em;
+	position: relative;
+	top: -.25em;
+}
+
+#googleMap {
+	width: 30em;
+	height: 70%;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+	position: absolute;
+	float: right;
+	margin: 1em;
+	color: #000000;
+}
+
+#locationTable {
+	width: 45%;
+}
+
+
+
+
+
+/*****************************************************************************
+ Search results styling for tablesorter jQuery Plugin
+*****************************************************************************/
+table.tablesorter {
+	font-family:arial;
+	background-color: #594F63;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #95B5BE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(../img/table/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #594F63;
+	padding: 4px;
+	background-color: #ffffff;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../img/table/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../img/table/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #ABDADF;
+}
+
+
+/*****************************************************************************
+ Form label styling for In-Field Labels jQuery Plugin
+*****************************************************************************/
+form p { 
+	position: relative;
+}
+
+label.textInput { 
+	position: absolute; 
+	top: .45em; 
+	left: .5em;
+}
